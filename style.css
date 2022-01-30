@@ -1,0 +1,263 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Supermercado One', cursive;}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+}
+#up{display: flex;
+    position: relative;
+    height: 50%;
+    width: 100%;
+    background-color: aqua;
+}
+#uleft{
+    height: 100%;
+    width: 30%;
+    background-color: rgba(91, 91, 91, 0.878);
+}
+#ulup{
+    width: 100%;
+    height: 50%;
+    background-image: url(https://media.istockphoto.com/photos/cherry-blossom-picture-id1297835513?b=1&k=20&m=1297835513&s=170667a&w=0&h=Buazol-go5ErQbU7BFG04SZCgMyYiDjZ58uadIvPZ7k=);
+    background-position: center;
+    background-size: cover;
+    color: black;
+    font-size: small;
+}
+#ulup i{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+#uldown{ position: relative;
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.449);
+}
+#uldown h6{
+    color: #fff;
+    position: absolute;
+    top: 70%;
+    left: 17%;
+}
+#line{
+    position: absolute;
+bottom: 17%;
+right: 14%;
+height: 3px;
+width: 70%;
+background-color: gray;
+}
+#lineleft{
+    height: 100%;
+    width: 80%;
+    background-color: aliceblue;
+}
+
+
+#lineright{
+
+}
+#leftarrow{position: absolute;
+    top: 85%;
+    right: 18%;
+    color: #fff;
+}
+#rightarrow{position: absolute;
+    top: 85%;
+    right: 15%;
+    color: #fff;
+}
+#ucenter{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(228, 109, 158);
+    color: white;
+
+}
+#WEBDESIGN{
+position: absolute;
+top: 8%;
+left: 4%;
+}
+
+
+#para1{
+    position: absolute;
+    top: 80%;
+    left: 4%;
+    font-size: 13px;
+}
+#para2{
+    position: absolute;
+    top: 85%;
+    left: 4%;
+    font-size: 13px;
+
+}
+#para3{
+    position: absolute;
+    top: 90%;
+    left: 4%;
+    font-size: 13px;
+
+}
+#menu{
+    position: absolute;
+    top: 9%;
+    right: 3%;
+    
+}
+#name{
+    position: absolute;
+    right: 2%;
+    font-size: small;
+    bottom: 20%;
+    transform: rotate(270deg);
+}
+#ucenter h2{
+    position: absolute;
+    top:70%;
+left: 4%;
+}
+
+#circlepng{position: absolute;
+    top: 35%;
+    left: 5%;
+height: 30%;
+}
+#uright{position: relative;
+    height: 100%;
+    width: 20%;
+background-color: #fff;
+}
+#since{position: absolute;
+    top: 10%;
+    left: 5%;
+    font-size: small;
+}
+
+#vige{
+    position: absolute;
+    top: 10%;
+    left: 85%;
+    font-size: xx-small;
+    transform: rotate(270deg);
+}
+#number{position: absolute;
+    bottom: 10%;
+    right: 2%;
+    font-size: 60px;
+}
+#design{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+
+
+#down{display: flex;
+    height: 50%;
+    width: 100%;
+background-color: white;
+}
+#dleft{position: relative;
+    height: 100%;
+    width: 150%;
+    background-color: white;
+
+}
+#dright{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+#post{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+#drop{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    font-size: 80px;
+}
+#material{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+}
+#mh6{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+#price{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+}
+#ph6{
+    position: absolute;
+    top: 70%;
+    left: 60%;
+}
+#twitter{
+position: absolute;
+top: 10%;
+left: 92%;
+}
+#facebook{
+position: absolute;
+top: 20%;
+left: 92%;
+}
+#insta{
+position: absolute;
+top: 30%;
+left: 92%;
+}
+#SOCIAL{
+    position: absolute;
+    top: 70%;
+    left: 89%;
+    font-size: xx-small;
+    transform: rotate(270deg);
+}
+#dup{
+    position: relative;
+    height: 80%;
+width: 100%;
+background-image: url(https://images.unsplash.com/photo-1533090161767-e6ffed986c88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fGZsb3dlciUyMHBvdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+background-position: center;
+background-size: cover;
+}
+#ddown{
+    position: relative;
+    height: 20%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1525247862234-30193931fdf7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cG90c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+
+}
+#play{
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
